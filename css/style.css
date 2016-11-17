@@ -1,0 +1,135 @@
+.price {
+	background: #ebebeb;
+	padding:50px 0;
+}
+.wrapper {
+  width:75%;
+  margin:0 auto
+}
+.block-left,
+.block-right {
+	display: inline-block;
+	vertical-align: top
+}
+
+.price .wrapper h2 {
+	font:400 36px/24px 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+.price .wrapper > div {
+	background: #f3f3f3;
+	width: 100%;
+	padding:10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 5px
+}
+
+.price .wrapper > div > .block-left {
+	width: 100%;
+	background: #fff;
+	text-align: center;
+	padding: 64px 0px;
+	position: relative;
+    overflow: hidden;
+}
+.price .wrapper > div > .block-left .edge {
+    position: absolute;
+}
+
+
+.price .wrapper > div > .block-left .edge.left {
+    left: 0;
+    top: 10px;
+    bottom: 10px;
+    right: 0;
+    border-left: 1px solid #d3d3d3;
+    width:1px;
+}
+
+.price .wrapper > div > .block-left .edge.bottom {
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    border-bottom: 1px solid #d3d3d3;
+    height:1px;
+}
+
+.price .wrapper > div > .block-left .edge.right {
+    right: 0;
+    top: 10px;
+    bottom: 10px;
+    right: 0;
+    border-right: 1px solid #d3d3d3;
+    width:1px;
+}
+
+.price .wrapper > div > .block-left .corner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FFF;
+    border: 1px solid #d3d3d3;
+}
+.price .wrapper > div > .block-left .edge.top {
+    top: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    border-top: 1px solid #d3d3d3;
+    height:1px;
+}
+.price .wrapper > div > .block-left .corner {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FFF;
+    border: 1px solid #d3d3d3;
+}
+
+.price .wrapper > div > .block-left .corner.top { top: -10px;    background: #f3f3f3; }
+.price .wrapper > div > .block-left .corner.bottom { bottom: -10px;    background: #f3f3f3; }
+.price .wrapper > div > .block-left .corner.left { left: -10px;    background: #f3f3f3; }
+.price .wrapper > div > .block-left .corner.right { right: -10px;    background: #f3f3f3; }
+
+
+.price .wrapper > div > .block-left .block-left {
+	width: 45%;
+	font:300 20px/30px 'Ubuntu', sans-serif;
+}
+
+.price .wrapper > div > .block-left .block-left > p + p {
+	font:400 20px/30px 'Ubuntu', sans-serif;
+	text-decoration: line-through;
+}
+
+.price .wrapper > div > .block-left .block-left > p + p + p {
+	color: #46ae3c;
+	font:500 36px/30px 'Ubuntu', sans-serif;
+	text-decoration: none;
+}
+
+.price .wrapper > div > .block-left .block-right {
+	width: 50%;
+}
+
+.price .wrapper > div > .block-left .block-right .btn {
+	background: #46ae3c;
+	border:0;
+	font:700 16px/30px 'Ubuntu', sans-serif;
+	width: 50%;
+    padding: 11px 0;
+    margin:0 auto 20px;
+    display: block;
+  color:#fff;
+}
+
+.price .wrapper > div > .block-left .block-right p {
+	font:300 16px/24px 'Ubuntu', sans-serif;
+}
+
